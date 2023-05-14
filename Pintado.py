@@ -25,6 +25,7 @@ def square(start, end):
 from turtle import *
 def circle(start, end):
     "Draw circle from start to end."
+    #Dibujamos un circulo
     up()
     goto(start.x, start.y)
     down()
@@ -36,7 +37,7 @@ def circle(start, end):
     end_fill()
 
 
-
+#Pintamos un rectangulo
 def rectangle(start, end):
     "Draw square from start to end."
     up()
@@ -53,6 +54,7 @@ def rectangle(start, end):
 
 end_fill()
 
+#Pintamos un triangulo
 def triangle(start, end):
     up()
     goto(start.x, start.y)
